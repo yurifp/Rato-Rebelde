@@ -6,20 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rato Rebelde - Enterprise CMS Bridge Platform. RebelMouse-inspired with Brazilian creativity.">
     <meta name="author" content="Yuri Ferreira Paulo">
-    
-    <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    
-    <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css">
     <link rel="script" href="script.js">
     
     <title>Rato Rebelde 🐭 | The Versionless CMS Performance Company</title>
 </head>
 <body>
-    <!-- Navigation -->
+    
     <nav class="navbar">
         <div class="navbar-container">
             <a href="#" class="navbar-brand">
@@ -37,7 +33,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+   
     <section class="hero">
         <h1 class="hero-title">
             The <span class="highlight">Versionless</span>
@@ -50,7 +46,7 @@
         </p>
     </section>
 
-    <!-- Feature Cards -->
+    
     <div class="cards-container">
         <div class="feature-card">
             <h3 class="feature-card-title">
@@ -75,7 +71,7 @@
         </div>
     </div>
 
-    <!-- Stats Section -->
+   
     <section class="stats-section">
         <div class="stats-container">
             <div class="stat-item">
@@ -97,7 +93,7 @@
         </div>
     </section>
 
-    <!-- CMS Platforms -->
+  
     <section class="platforms-section" id="platforms">
         <div class="section-header">
             <h2 class="section-title">Connected Platforms</h2>
@@ -158,10 +154,19 @@
                     <span>Connected</span>
                 </div>
             </div>
+
+            <div class="platform-card" onclick="RatoRebelde.loadPlatformContent('platform')">
+                <div class="platform-name">All Platforms</div>
+                <div class="platform-status">
+                    <span class="status-dot"></span>
+                    <span>Connected</span>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <!-- Content Feed -->
+   
     <section class="content-section" id="content">
         <div class="section-header">
             <h2 class="section-title">Live Content Feed</h2>
@@ -173,7 +178,7 @@
         </div>
     </section>
 
-    <!-- Performance Monitor (Hidden by default) -->
+ 
     <div class="performance-monitor" id="performanceMonitor" style="display: none;">
         <div class="monitor-title">Core Web Vitals</div>
         <div class="monitor-metrics">
@@ -196,7 +201,7 @@
         </div>
     </div>
 
-    <!-- Footer -->
+  
     <footer class="footer">
         <p class="footer-text">
             Built with 100% Vanilla JavaScript by 
@@ -206,7 +211,7 @@
         </p>
     </footer>
 
-    <!-- JavaScript -->
+  
     <script src="script.js"></script>
 </body>
 </html>
